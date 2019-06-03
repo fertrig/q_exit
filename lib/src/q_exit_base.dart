@@ -12,7 +12,7 @@ void qToExit() {
 
   cmdLine.listen((line) async {
       if (line == 'q') {
-        exit(1);
+        exit(0);
       }
   });
 }
